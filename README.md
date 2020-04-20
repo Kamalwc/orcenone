@@ -2,4 +2,5 @@
 
 
 javascript test web app
-*insert requirements here*
+
+this is a timed quiz web app that holds all the previous scaores of all the users
