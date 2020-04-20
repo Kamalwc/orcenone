@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <title>QUIZ</title>
 </head>
 <body>
-    <button id="start">Start Test</button>
-    <p id="question"></p>
+    <a href="viewScores.html" class="xcd">View Highscores </a> 
+    <div id="timeDiv">
+        <p  class="font right tme">Time : </p>
+        <p class="tme font" id="time" ></p>
+    </div>
+    <!-- view highscores takes you to a diffrent page  -->
+    <div class="testContent">
+        <h1 class="center font ">Coding Quiz Challenge</h1>
+        <h4 class="center font ">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds! </h4>
+        <button  id="start" class="center font ">Start Quiz</button>
+    </div>
+
+    <!-- <p id="question"></p>
+    <ul id="choices"></ul> -->
     <!-- add a light and dark mode!! -->
     <script src="JS/scripts.js"></script>
 </body>
